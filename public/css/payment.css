@@ -1,0 +1,289 @@
+#wrapper-content {
+  overflow: hidden;
+}
+#wrapper-content #content {
+  font-family: Helvetica Neue, sans-serif;
+}
+#wrapper-content #content .sidebar {
+  padding-top: 64px;
+  color: #717171;
+  position: relative;
+  min-height: 400px;
+  z-index: -5;
+}
+#wrapper-content #content .sidebar::after {
+  content: "";
+  display: block;
+  width: 200%;
+  position: absolute;
+  top: 0;
+  left: -100px;
+  bottom: 0;
+  background: #fafafa;
+  z-index: -1;
+}
+#wrapper-content #content .sidebar .summary-order {
+  padding-left:15px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #ddd;
+}
+#wrapper-content #content .sidebar .summary-order .order {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+#wrapper-content #content .sidebar .summary-order .order:last-child {
+  padding-bottom: 0px;
+}
+#wrapper-content #content .sidebar .summary-order .order .summary-left {
+  flex: 0 0 65px;
+  position: relative;
+}
+#wrapper-content
+  #content
+  .sidebar
+  .summary-order
+  .order
+  .summary-left
+  .img-order {
+  width: 100%;
+  display: block;
+}
+#wrapper-content
+  #content
+  .sidebar
+  .summary-order
+  .order
+  .summary-left
+  .img-order
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+#wrapper-content
+  #content
+  .sidebar
+  .summary-order
+  .order
+  .summary-left
+  .number-order {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: #95a5a6;
+  font-size: 12px;
+  position: absolute;
+  top: -12px;
+  left: -15px;
+  color: #fff;
+}
+#wrapper-content #content .sidebar .summary-order .order .summary-right {
+  /* flex: 0 1 auto; */
+  padding: 0 15px;
+  display: grid;
+  place-items: center;
+}
+#wrapper-content #content .sidebar .summary-order .order .summary-right a {
+  display: block;
+  color: #717171;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Helvetica Neue, sans-serif;
+}
+#wrapper-content #content .sidebar .summary-order .order .summary-total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+#wrapper-content #content .sidebar .summary-order .order .summary-total span {
+  position: relative;
+}
+#wrapper-content
+  #content
+  .sidebar
+  .summary-order
+  .order
+  .summary-total
+  span::before {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+  content: "";
+  width: 8px;
+  height: 1px;
+  background-color: #4b4b4b;
+}
+#wrapper-content #content .sidebar .pay-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 10px;
+  color: #4b4b4b;
+  margin-bottom:50px;
+}
+#wrapper-content #content .sidebar .pay-total .right {
+  font-size: 22px;
+  font-weight: 500;
+}
+#wrapper-content #content .sidebar .pay-total .right span {
+  position: relative;
+  color: #717171;
+}
+#wrapper-content #content .sidebar .pay-total .right span::before {
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+  content: "";
+  width: 12px;
+  height: 2px;
+  background-color: #717171;
+}
+/* main */
+#wrapper-content #content .main {
+  padding-top: 20px;
+}
+#wrapper-content #content .main .img-thumb {
+  display: block;
+}
+#wrapper-content #content .main .img-thumb img {
+  max-width: 90px;
+  height: auto;
+}
+#wrapper-content #content .main nav ol {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+#wrapper-content #content .main nav ol li.breadcrumb-item.home:hover a {
+  color: #48dbfb;
+}
+#wrapper-content #content .main nav ol li.breadcrumb-item.active a {
+  color: #48dbfb;
+}
+#wrapper-content #content .main nav ol li a {
+  text-decoration: none;
+  color: #717171;
+  font-size: 12px;
+}
+#wrapper-content #content .main .detail {
+  color: #4b4b4b;
+  margin-bottom: 20px;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-group label {
+  position: absolute;
+  font-size: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  background-color: #ffffff;
+  padding: 0 10px;
+  pointer-events: none;
+  color:#717171;
+}
+.form-group input {
+  padding: 8px 50px 8px 10px;
+  font-size: 15px;
+}
+.form-group input:focus + label,
+.form-group input:valid + label {
+  top: -10px;
+  left: 8px;
+  font-size: 12px;
+  transform: none;
+  transition: all 0.3s;
+}
+#wrapper-content #content .main .payment {
+  border: 1px solid #ced4da;
+  padding: 10px 10px;
+  border-radius: 4px;
+  margin-bottom: 35px;
+  box-shadow: 0px 0px 1px #ddd;
+  font-size:13px;
+}
+#wrapper-content #content .main .payment .pay {
+  margin-bottom: 15px;
+}
+#wrapper-content #content .main .payment .pay:last-child {
+  margin-bottom:0;
+}
+#wrapper-content #content .main .payment .pay img {
+  width: 20px;
+  height: auto;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+#wrapper-content #content .main .complete {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0px;
+}
+#wrapper-content #content .main .complete a {
+  text-decoration: none;
+  font-size: 15px;
+  display: none;
+}
+#wrapper-content #content .main .complete input.btn-order {
+  width: 100%;
+  padding: 10px 37px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #2bd8ff;
+  color: #fff;
+  cursor: pointer;
+  font-weight:700;
+}
+#wrapper-content #content .main .complete input.btn-order:hover {
+  background-color: rgb(255, 67, 67);
+}
+@media (min-width: 992px) {
+    #wrapper-content #content .sidebar {
+      min-height: 672px;
+      padding-left: 4%;
+    }
+  #wrapper-content #content .sidebar::after {
+    left:0;
+    box-shadow: 1px 0 0 #e1e1e1 inset;
+  }
+  #wrapper-content #content .sidebar .summary-order {
+    padding-left:0;
+  }
+  #wrapper-content #content .main {
+    padding-top:32px;
+    padding-right: 60px;
+  }
+  #wrapper-content #content .main .payment {
+    padding: 15px 35px;
+    font-size:16px;
+  }
+  #wrapper-content #content .main .payment .pay img {
+    width: 35px;
+  }
+  #wrapper-content #content .main .complete {
+    position: relative;
+  }
+  #wrapper-content #content .main .complete a {
+    display: block;
+  }
+  #wrapper-content #content .main .complete input.btn-order {
+    width: 25%;
+    border-radius:4px;
+  }
+}

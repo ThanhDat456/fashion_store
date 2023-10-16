@@ -1,0 +1,121 @@
+#body-store .container .title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.left .blog {
+  display: grid;
+  grid-template-columns: 100px auto;
+  margin: 10px 0;
+}
+.left .blog .blog-left {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+  position: relative;
+}
+.left .blog .blog-left img {
+  max-width: 100%;
+  height: auto;
+}
+.left .blog .blog-left span {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: #05c3ff;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 0 5px;
+}
+.left .blog .blog-right {
+  padding: 0 5px;
+}
+.left .blog .blog-right .title-blog {
+  display: block;
+  color: #000;
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  margin: 0px 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+  font-size: 14px;
+}
+.left .blog .blog-right .title-blog:hover {
+  color: #05c3ff;
+}
+.left .blog .blog-right .content-blog {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 12px;
+}
+.right .title-new {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.right .nav-new {
+  padding: 0px;
+  list-style: none;
+}
+.right .nav-new .new-item {
+  display: grid;
+  grid-template-columns: 80px auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #ecf0f1;
+}
+.right .nav-new .new-item:last-child {
+  border-bottom: none;
+}
+.right .nav-new .new-item .item-left {
+  width: 100%;
+}
+.right .nav-new .new-item .item-left img {
+  width: 100%;
+  height: auto;
+}
+.right .nav-new .new-item .item-right {
+  padding: 0 5px;
+}
+.right .nav-new .new-item .item-right a {
+  color: #000000;
+  font-family: "Arial", sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 15px;
+}
+.right .nav-new .new-item .item-right a:hover {
+  color: #05c3ff;
+}
+@media (min-width: 500px) {
+  .left .blog {
+    display: grid;
+    grid-template-columns: 250px auto;
+  }
+  .left .blog .blog-right .title-blog {
+    font-size: 16px;
+  }
+  .left .blog .blog-right .content-blog {
+    -webkit-line-clamp: 3;
+    font-size: 14px;
+    margin: 0px 0 10px;
+  }
+  .left .blog .blog-left span {
+    top: 5px;
+    left: 5px;
+    font-size: 14px;
+  }
+  .left .blog .blog-right {
+    padding: 0 15px;
+  }
+}

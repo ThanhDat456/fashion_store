@@ -1,0 +1,125 @@
+.body-color {
+  background-color: #ecf0f1;
+}
+.wrap-top,
+.wrap-bottom {
+  background-color: #ffffff;
+}
+.wrap-top {
+  padding: 20px 15px;
+}
+.wrap-top .address {
+  display: grid;
+  grid-template-columns: 30px auto;
+  margin-bottom: 20px;
+}
+.wrap-top .address span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+}
+.wrap-top .address .left-address {
+  margin-left: 15px;
+}
+.wrap-top .address .left-address .title-address {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.wrap-top .address .left-address .content {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #696969;
+}
+.wrap-top ul.row {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.wrap-top ul.row li {
+  display: flex;
+  margin-bottom: 20px;
+}
+.wrap-top ul.row li:last-child {
+  margin-bottom: 0px;
+}
+.wrap-top ul.row li span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+}
+.wrap-top ul.row li .left {
+  margin-left: 15px;
+}
+.wrap-top ul.row li .left .title-left {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.wrap-top ul.row li .left .content {
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #696969;
+}
+.wrap-bottom {
+  padding: 15px;
+}
+.wrap-bottom .keyword {
+  font-weight: 700;
+  font-size: 20px;
+}
+.wrap-bottom .small {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.wrap-bottom .group {
+  margin-bottom: 10px;
+}
+.wrap-bottom .group label {
+  display: block;
+  font-size: 14px;
+}
+.wrap-bottom .group input,
+textarea {
+  color: #5c5c5c;
+  font-weight: 500;
+  background: #fff;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  outline: none;
+  font-size: 14px;
+}
+.wrap-bottom .group input {
+  height: 45px;
+  width: 100%;
+  padding: 8px 20px;
+}
+.wrap-bottom .group textarea {
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+}
+.wrap-bottom button {
+  border-radius: 25px;
+  padding: 6px 25px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+iframe {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .wrap-top ul.row li {
+    margin-bottom: 0;
+  }
+}
