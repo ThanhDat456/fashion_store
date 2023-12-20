@@ -411,6 +411,15 @@
   padding: 0 15px;
   position: relative;
 }
+#wrap-head #wrap-head-fashion .nav-bar .nav-menu .nav-item.customer {
+  border-top:1px solid #ddd;
+}
+#wrap-head #wrap-head-fashion .nav-bar .nav-menu .nav-item.customer .nav-link.customer-login .name-customer .fa-user{
+  border:2px solid #48dbfb;
+  border-radius:50%;
+  margin-right:8px;
+  padding:5px;
+}
 #wrap-head #wrap-head-fashion .nav-bar .nav-menu .nav-item .nav-link {
   display: block;
   text-decoration: none;
@@ -590,6 +599,33 @@
 }
 #wrap-head #wrap-menu-fashion ul.head-menu li.nav-item:hover a.menu-item {
   color: #48dbfb;
+}
+
+#wrap-head #wrap-menu-fashion ul.head-menu li.nav-item.customer {
+  font-weight: 500;
+}
+#wrap-head #wrap-menu-fashion ul.head-menu li.nav-item a.menu-item.customer-login{
+  border-left: 3px solid #ddd;
+}
+#wrap-head
+  #wrap-menu-fashion
+  ul.head-menu
+  li.nav-item
+  a.menu-item.customer-login
+  .name-customer {
+  padding: 0 25px;
+  text-transform: none;
+}
+#wrap-head
+  #wrap-menu-fashion
+  ul.head-menu
+  li.nav-item.customer
+  a.menu-item.customer-login
+  .name-customer .fa-user{
+  border:2px solid #48dbfb;
+  border-radius:50%;
+  margin-right:8px;
+  padding:5px;
 }
 /* #wrap-head #wrap-menu-fashion ul.head-menu li.nav-item a.menu-item{
   position: relative;
@@ -1666,6 +1702,10 @@
   margin-bottom: 20px;
   color: #48dbfb;
 }
+#wrapper #footer #footer-first .container .ft .footer-first-item .detail-info{
+  line-height:2.8;
+  margin-bottom:0;
+}
 #wrapper #footer #footer-first .container .ft .footer-first-item ul.contact {
   list-style: none;
   padding: 0;
@@ -1722,9 +1762,9 @@
   color: #ffffff;
   background-color: #bdc3c7;
   padding: 5px 30px;
-  font-size:15px;
-  font-weight:600;
-  border-radius:20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 20px;
 }
 #wrapper
   #footer
@@ -1734,7 +1774,7 @@
   .footer-first-item
   .detail-info:hover
   a {
-    background-color: #0ebde2;
+  background-color: #0ebde2;
 }
 #wrapper #footer #footer-second {
   background-color: #212529;
@@ -2170,8 +2210,8 @@
     width: 50%;
   }
 }
-@media (min-width: 678px) {
-}
+/* @media (min-width: 678px) {
+} */
 @media (min-width: 768px) {
   #wrap-head {
     height: 135px;

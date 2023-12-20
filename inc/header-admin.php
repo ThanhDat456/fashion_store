@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="public/images/Adidas-logo.png">
+    <link rel="icon" href="public/images/logo.png">
     <!-- link bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- link css -->
@@ -27,7 +27,7 @@
                 <div class="wp-header col-lg-12 col-md-12 col-12">
                     <div class="left">
                         <a href="?mod=home&act=main" class="img-store">
-                            <img src="public/images/Adidas-logo.png" alt="">
+                            <img src="public/images/datstore.png" alt="">
                         </a>
                         <div class="add-func">
                             <i class="fa-solid fa-plus"></i>
